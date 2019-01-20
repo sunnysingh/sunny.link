@@ -1,0 +1,17 @@
+{
+  "name": "sunny.link",
+  "version": "1.0.0",
+  "description": "URL shortener for sunnysingh.io",
+  "main": "index.js",
+  "repository": "git@github.com:sunnysingh/sunny.link.git",
+  "author": "Sunny Singh <me@sunnysingh.io>",
+  "license": "MIT",
+  "private": false,
+  "baseUrl": "https://sunny.link",
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "devDependencies": {
+    "netlify-shortener": "^1.0.3"
+  }
+}
